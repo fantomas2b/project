@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Les membres</title>
+        <meta charset="utf-8" />
+
+        <link rel="stylesheet" type="text/css" href="barStayTop/style/stylefjpi.css"/>
+        <link rel="stylesheet" type="text/css" href="barStayTop/style/style_header.css"/>
+
+        <style>
+        @import url('https://fonts.googleapis.com/css?family=Poppins');
+        </style>
+
+
+        <link rel="stylesheet" href="footer/style/footer.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="selecteur/css/selecteur.css">
+
+    </head>
+    <body>
+
+            
+    <div class="header">
+
+
+        <div id="topnav">
+
+            <div class="sticky_navigation_wrapper">
+                
+                <span class="menu-main-container">
+
+                    <ul class="menu">
+
+                      <li><a href="index2.php"><span>Qui sommes-nous ?</span></a></li>
+                      <li><a href="selecteur2.php"><span>Les membres</span></a></li>
+                      <li><a href="index2.php"><span>Devenir membres</span></a></li>
+                      <li><a href="index2.php"><span>Les événements</span></a></li>
+                      <li><a href="index2.php"><span>JJPI</span></a></li>       
+                      <li><a href="index2.php"><span>Contact</span></a></li>
+
+                    </ul>
+
+                   </span>
+
+            
+            </div>  
+
+    </div>            
+
+
+		<div class="selecteurContent">
+				
+			<div class="filterImg">
+
+				<button  type="button" onclick="selectImg('resetAll')" >X</button>
+
+				<button  type="button" onclick="selectImg('courtMetrage')">COURT METRAGES</button>
+
+				<button  type="button" onclick="selectImg('longMetrage')">LONG METRAGES</button>
+
+				<button  type="button" onclick="selectImg('documentaire')">DOCUMENTAIRES</button>
+
+				<button  type="button" onclick="selectImg('serie')">SÉRIES</button>	
+
+				<button  type="button" onclick="selectImg('fiction')">FICTIONS</button>	
+			</div>
+
+			
+
+
+			<div class="imgAll">
+				
+				<img onclick="affichedoc()" class="documentaire" src="selecteur/img/boulimik.png" alt="logo boulimik">
+				<img onclick="affichedoc()" class="documentaire" src="selecteur/img/clapetzap.png" alt="logo clapetzap">
+				<img onclick="affichedoc()" class="fiction" src="selecteur/img/tonfilm.png" alt="logo tonfilm">
+				<img onclick="affichedoc()" class="longMetrage documentaire serie" src="selecteur/img/unautreregard.png" alt="logo unautreregard">
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/zebraproduction.png" alt="logo zebraproduction">
+
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/23mars.png" alt="log 23mars">
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/airzoom.png" alt="logo airzoom">
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/artisansdufilm.png" alt="logo artisansdufilm">
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/awales.png" alt="logo awales">
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/baleinesouscaillou.png" alt="logo baleinesouscaillou">
+
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/buffalo.png" alt="log buffalo">
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/cinecorp.png" alt="logo cinecorp">
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/cineparallax.png" alt="logo cineparallax">
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/complexus.png" alt="logo complexus">
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/coqheron.png" alt="logo coqheron">
+
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/dacp.png" alt="log dacp">
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/delphy.png" alt="logo delphy">
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/dobro.png" alt="logo dobro">
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/filmarium.png" alt="logo filmarium">
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/filmsduprince.png" alt="logo filmsduprince">
+
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/filmstropique.png" alt="log filmstropique">
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/florealfilms.png" alt="logo florealfilms">
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/flycorner.png" alt="logo flycorner">
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/fuldawa.png" alt="logo fuldawa">
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/haleysun.png" alt="logo haleysun">
+
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/hippocampe.png" alt="log hippocampe">
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/hominem.png" alt="logo hominem">
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/infocus.png" alt="logo infocus">
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/insolence.png" alt="logo insolence">
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/jasieproduction.png" alt="logo jasieproduction">
+
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/lestoilesducosmos.png" alt="log lestoilesducosmos">
+				
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/moodfilms.png" alt="logo moodfilms">
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/nema.png" alt="logo nema">
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/neufjanvier.png" alt="logo neufjanvier">
+
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/studiokremlin.png" alt="logo studiokremlin">
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/studiomontmartre.png" alt="logo studiomontmartre">
+				<img onclick="affichedoc()" class="serie fiction" src="selecteur/img/tachkent.png" alt="logo tachkent">
+
+			</div>
+
+			</div>
+
+	
+
+
+
+	<script src="selecteur/js/monjs.js"></script>
+	<script src="../PopUp/js/fenetre.js"></script>
+
+
+
+    <footer>
+
+            <div>
+                
+
+                <div class="hello">
+
+                 <p>Federation des jeunes producteurs indépendant</p>
+                
+
+                </div>
+
+                <div class="socialMedia">
+                    
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-youtube"></a>
+
+
+                </div>
+
+            </div>
+
+    
+
+    </footer>
+            
+        
+       		
+    </body>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="barStayTop/js/monjs.js"></script>
+</html>

@@ -1,0 +1,113 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: rgb(70,70,70);
+	font: 0px Arial, sans-serif;
+	cursor: default;
+	background-color:  #f2f3f4 ;
+}
+.link {
+	cursor: pointer;
+	text-decoration: none;
+	color: rgb(175,207,227);
+}
+.item_popup {
+	margin-top: 2px;
+	padding-top: 2px;
+	border-top: 1px solid rgb(100,100,100);
+}
+#calendar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 5px;
+	padding-bottom: 2px;
+	aborder: 1px solid rgb(227,227,227);
+	background: rgb(82,95,108);
+	color: rgb(240,240,240);
+}
+#calendar td {
+	width: 14%;
+	height: 12%;
+	padding: 0;
+	text-align: center;
+}
+.calendar_top {
+	background: rgb(42,51,57);
+}
+.calendar_case, .calendar_today {
+	background-color: rgb(233,238,242);
+	border-top: 1px solid rgb(210,210,210);
+	border-left: 1px solid rgb(210,210,210);
+	border-bottom: 1px solid rgb(250,250,250);
+	border-right: 1px solid rgb(250,250,250);
+	background-color: rgb(240,240,240);
+	color: rgb(70,70,70);
+	border: none;
+	border-top: 1px solid rgb(225,225,225);
+	border-left: 1px solid rgb(225,225,225);
+}
+.calendar_weekend {
+	margin-right: 8px;
+	font-weight: bold;
+	background: rgb(225,225,225);
+	border-top: 1px solid rgb(240,240,240);
+}
+.calendar_left_dark {
+	margin-left: 8px;
+	aborder-left: 1px solid rgb(210,210,210);
+}
+.calendar_top_dark {
+	aborder-top: 1px solid rgb(210,210,210);
+}
+.calendar_today, .calendar_today_event {
+	abackground-color: rgb(255,152,100);
+	border: 1px solid rgb(245,142,90);
+}
+.link_event {
+	display: block;
+	height: 98%;
+	apadding-top: 30%;
+	text-decoration: none;
+	font-weight: bold;
+	color: rgb(200,50,50);
+	cursor: pointer;
+	background-color: rgb(218,228,237);
+	background: rgb(218,228,237) url(http://winky.fr/img/back_cal.png) left bottom no-repeat;
+}
+.link_event:hover {
+	aborder: 1px solid rgb(223,112,0);
+	background-color: rgb(209,222,235);
+}
+.link_event:active {
+	aheight: 37px;
+	apadding-top: 21px;
+}
+#calendar_popup {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 5px;
+	right: 5px;
+	padding: 5px;
+	color: rgb(255,255,255);
+	background: rgb(0,0,0);
+	
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+}
+#close_popup {
+	position: absolute;
+	top: 3px;
+	right: 7px;
+	cursor: pointer;
+	font-weight: bold;
+	color: rgb(200,200,200);
+}
+#close_popup:hover {
+	color: rgb(255,255,255);
+}

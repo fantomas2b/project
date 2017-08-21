@@ -1,0 +1,17 @@
+input.modif {
+      border:1px solid green; // Par exemple la couleur du contour
+      background-image:url('image.ext'); // Une image de fond pour ton bouton ...
+      // etc ...
+}
+.lien, .lien:hover{
+    font-family: Calibri, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #98fb98;
+    background-color: black;
+    border: none;
+    border-radius: 0px;
+    text-decoration: underline;
+    padding: 0px;
+    cursor:pointer;
+}

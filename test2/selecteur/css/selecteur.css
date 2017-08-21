@@ -1,0 +1,19 @@
+img{
+
+	margin:10px;
+}
+
+button{
+
+    background-color: #397591;
+    color: white;
+    padding: 9px 34px;
+   
+    text-align: center;
+    display: inline-block;
+    font-size: 17px;
+}
+
+.selecteurContent{
+
+	margin: 100px;
